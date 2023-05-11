@@ -2,7 +2,7 @@ body{
   margin: 0px;
   padding: 0px;
  background-size: 100%;
-  background-image:url(images/universo.png)
+  background-image: url(images/universo.png);
 }
 .sun{
   height: 120px;
