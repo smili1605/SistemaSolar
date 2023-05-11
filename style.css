@@ -1,0 +1,210 @@
+body{
+  margin: 0px;
+  padding: 0px;
+ background-size: 100%;
+  background-image:url(../Sistema-Solar/images/universo.png)
+}
+.sun{
+  height: 120px;
+  width: 120px;
+background-image: url(../Sistema-Solar/images/sol.png);
+background-size: cover;
+  border-radius: 50%;
+
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
+.mercury{
+  height: 20px;
+  width: 20px;
+  background:#a94c2b;
+  border-radius: 50%;
+
+  position:absolute;
+  left:43%;
+  top:42%;
+  transform:translate(-50%,-50%);
+  animation:orbit2  2s linear infinite;
+}
+@keyframes orbit2{
+   from {transform:rotate(0deg)translateX(70px)rotate(0deg);}
+ to {transform:rotate(360deg)translateX(70px)rotate(-360deg);}
+}
+p{
+  color:white;
+  font-family:system-ui;
+  position:absolute;
+  left:-62px;
+  top:-11px;
+}
+.mercury-outline,
+.venus-outline-1,
+.earth-outline-1,
+.mars-outline-1,
+.jupiter-outline-1,
+.saturn-outline-1,
+.uranus-outline-1,
+.neptune-outline-1{
+  border-radius: 50%;
+  border:1px dotted #ddd9;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%)
+}
+.mercury-outline{
+  height: 140px;
+  width:140px;
+}
+.venus{
+  height: 40px;
+  width: 40px;
+
+  border-radius: 50%;
+  background-image: url(../Sistema-Solar/images/venus.png);
+  background-size: cover;
+  position:absolute;
+  left:40%;
+  top:42%;
+  transform:translate(-50%,-50%);
+  animation:orbit3  10s linear infinite;
+}
+@keyframes orbit3{
+  from {transform:rotate(0deg)translateX(100px)rotate(0deg);}
+to {transform:rotate(360deg)translateX(100px)rotate(-360deg);}
+}
+.venus-outline-1{
+  height: 200px;
+  width:200px;
+}
+.earth{
+  height: 50px;
+  width: 50px;
+  background-image: url(../Sistema-Solar/images/terra.png);
+  background-size: cover;
+  border-radius: 50%;
+  position:absolute;
+  left:44%;
+  top:43%;
+  transform:translate(-50%,-50%);
+  animation:orbit4  20s linear infinite;
+}
+@keyframes orbit4{
+  from {transform:rotate(0deg)translateX(150px)rotate(0deg);}
+to {transform:rotate(360deg)translateX(150px)rotate(-360deg);}
+}
+.earth-outline-1{
+  height: 300px;
+  width:300px;
+}
+.mars{
+  height: 30px;
+  width: 30px;
+  background-image: url(../Sistema-Solar/images/marte.png);
+background-size: cover;
+  border-radius: 50%;
+  position:absolute;
+  left:46.5%;
+  top:46.5%;
+  transform:translate(-50%,-50%);
+  animation:orbit5  30s linear infinite;
+}
+@keyframes orbit5{
+  from {transform:rotate(0deg)translateX(185px)rotate(0deg);}
+to {transform:rotate(360deg)translateX(185px)rotate(-360deg);}
+}
+.mars-outline-1{
+  height: 370px;
+  width:370px;
+}
+
+.jupiter{
+  height: 60px;
+  width: 60px;
+  background-image: url(../Sistema-Solar/images/jupiter.png);
+  background-size: cover;
+  border-radius: 50%;
+  position:absolute;
+  left:45%;
+  top:45%;
+  transform:translate(-50%,-50%);
+  animation:orbit6  60s linear infinite;
+}
+@keyframes orbit6{
+  from {transform:rotate(0deg)translateX(200px)rotate(0deg);}
+to {transform:rotate(360deg)translateX(200px)rotate(-360deg);}
+}
+.jupiter-outline-1{
+  height: 430px;
+  width:430px;
+}
+.saturn{
+  height: 55px;
+  width: 55px;
+  background-image: url(../Sistema-Solar/images/saturno.png);
+  background-size: cover;
+  border-radius: 50%;
+  position:absolute;
+  left:45%;
+  top:45%;
+  transform:translate(-50%,-50%);
+  animation:orbit7  90s linear infinite;
+}
+@keyframes orbit7{
+  from {transform:rotate(0deg)translateX(250px)rotate(0deg);}
+to {transform:rotate(360deg)translateX(250px)rotate(-360deg);}
+}
+.saturn-outline-1{
+  height: 500px;
+  width:500px;
+}
+.uranus{
+  height: 35px;
+  width: 35px;
+  background-image: url(../Sistema-Solar/images/urano.png);
+  background-size: cover;
+  border-radius: 50%;
+  position:absolute;
+  left:48%;
+  top:48%;
+  transform:translate(-50%,-50%);
+  animation:orbit8  200s linear infinite;
+}
+@keyframes orbit8{
+  from {transform:rotate(0deg)translateX(280px)rotate(0deg);}
+to {transform:rotate(360deg)translateX(280px)rotate(-360deg);}
+}
+.uranus-outline-1{
+  height: 560px;
+  width:560px;
+}
+.neptune{
+  height: 30px;
+  width: 30px;
+  background-image: url(../Sistema-Solar/images/netuno.png);
+  background-size: cover;
+  border-radius: 50%;
+  position:absolute;
+  left:48%;
+  top:48%;
+  transform:translate(-50%,-50%);
+  animation:orbit9  400s linear infinite;
+}
+@keyframes orbit9{
+  from {transform:rotate(0deg)translateX(310px)rotate(0deg);}
+to {transform:rotate(360deg)translateX(310px)rotate(-360deg);}
+}
+.neptune-outline-1{
+  height: 620px;
+  width:620px;
+}
+header h1{
+  color: white;
+ }
+ 
+ article {
+  height: 400px;
+  margin: 0 auto;
+ }
