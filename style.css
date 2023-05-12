@@ -7,26 +7,27 @@ body {
 header {
   padding: 10px;
 }
-
  h1 {
-  color:white
-}
-
- ul {
-  margin-right: 10px;
-  margin-top: -50px;
-  float: right;
-}
-
-li {
-  display: inline-block;
-  margin-left: 30px;
-}
-
- a {
-  text-decoration: none;
   color:white;
-  font-size:larger;
+  font-family: 'Roboto', sans-serif;
+}
+
+.links {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 30px;
+}
+
+.links a {
+  margin-left: 10px;
+  font-size:x-large;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.links a:hover {
+  color: #f6ea01;
+  text-decoration: underline; 
 }
 
 .inform{
@@ -35,6 +36,15 @@ li {
   text-align:justify;
  margin-left:20px;
   line-height: 2;
+  font-family: 'Roboto', sans-serif;
+}
+.reason{
+  color:white;
+  width: 50%; 
+  margin: 0 auto;
+  margin-top: 200px;
+  font-family: 'Roboto', sans-serif;
+  text-align:justify;
 }
 
 .sun {
