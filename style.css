@@ -303,19 +303,9 @@ p {
   margin-bottom: 20px;
 }
 
-.form-container p {
-  margin-bottom: 10px;
-}
-
 .form-container input[type="radio"] {
   margin-right: 5px;
 }
-
-.form-container button {
-  display: block;
-  margin: 0 auto;
-}
-
 .form-container #results {
   text-align: center;
 }
