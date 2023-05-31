@@ -24,10 +24,11 @@ header {
   font-size:x-large;
   color: white;
   font-family: 'Roboto', sans-serif;
+  text-decoration: none;
 }
 .links a:hover {
   color: #f6ea01;
-  text-decoration: underline; 
+
 }
 
 .inform{
@@ -276,4 +277,45 @@ p {
 .neptune-outline-1 {
   height: 620px;
   width: 620px;
+}
+
+.bodyquiz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.form-container {
+  max-width: 500px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.form-container h1 {
+  text-align: center;
+ color:black
+}
+
+.form-container .question {
+  margin-bottom: 20px;
+}
+
+.form-container p {
+  margin-bottom: 10px;
+}
+
+.form-container input[type="radio"] {
+  margin-right: 5px;
+}
+
+.form-container button {
+  display: block;
+  margin: 0 auto;
+}
+
+.form-container #results {
+  text-align: center;
 }

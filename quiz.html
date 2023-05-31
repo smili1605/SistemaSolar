@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sistema Solar</title>
+    <script src="script.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="style.css" rel="stylesheet">
+</head>
+
+<body class="bodyquiz">
+    <div class="links">
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+    </div>
+    <div class="form-container">
+        <h1>Quiz do Sistema Solar</h1>
+
+        <div id="question1" class="question">
+            <h3>1ª A classificação de um corpo celeste em um planeta requer um conjunto de características
+             definidas pelas reuniões da Assembleia Geral da União Astronômica Internacional,
+         que ocorre periodicamente.<br> Qual alternativa indica uma característica necessária
+          para a definição de um planeta do Sistema Solar?</h3>
+            <input type="radio" name="answer1" value="A" onchange="nextQuestion()"> A) Definição de uma órbita ao redor do Sol.<br>
+            <input type="radio" name="answer1" value="B" onchange="nextQuestion()"> B)  Existência de uma ou mais luas.<br>
+            <input type="radio" name="answer1" value="C" onchange="nextQuestion()"> C) Iluminação interna e externa própria.<br>
+            <input type="radio" name="answer1" value="D" onchange="nextQuestion()"> D)  Composição terrestre de origem gasosa.<br>
+            <input type="radio" name="answer1" value="E" onchange="nextQuestion()"> E) Inexistência de vida biológica.<br>
+        </div>
+
+        <div id="question2" class="question">
+            <h3>2ª Os planetas do Sistema Solar podem ser classificados conforme a sua composição.
+                 Com base nessa classificação,
+                 pode-se afirmar que são planetas rochosos:?</h3>
+            <input type="radio" name="answer2" value="A" onchange="nextQuestion()"> A) Terra, Marte, Urano e Netuno<br>
+            <input type="radio" name="answer2" value="B" onchange="nextQuestion()"> B) Terra, Marte, Saturno e Plutão.<br>
+            <input type="radio" name="answer2" value="C" onchange="nextQuestion()"> C) Vênus, Marte, Saturno e Urano.<br>
+            <input type="radio" name="answer2" value="D" onchange="nextQuestion()"> D) Mercúrio, Vênus, Terra e Marte.<br>
+            <input type="radio" name="answer2" value="E" onchange="nextQuestion()"> E) Júpiter, Saturno, Urano e Netuno.<br>
+        </div>
+
+        <div id="question3" class="question">
+            <h3>3ª ___________________ é o planeta mais próximo do Sol. Esse planeta é capaz de refletir cerca de 12% da luz solar,
+                 sendo um dos astros mais brilhantes vistos da Terra. Encontra-se a cerca de 57.910.000 km do Sol.
+                  Sua superfície é repleta de crateras, enquanto seu núcleo é rico em ferro,
+                   e a espécie de atmosfera existente no planeta é composta, em sua maioria,
+                    por hélio (98%) e hidrogênio (2%). A temperatura do planeta durante o dia atinge 430 ºC.</h3>
+            <input type="radio" name="answer3" value="A" onchange="nextQuestion()"> A) Saturno<br>
+            <input type="radio" name="answer3" value="B" onchange="nextQuestion()"> B) Júpiter<br>
+            <input type="radio" name="answer3" value="C" onchange="nextQuestion()"> C) Marte<br>
+            <input type="radio" name="answer3" value="D" onchange="nextQuestion()"> D)  Vênus<br>
+            <input type="radio" name="answer3" value="E" onchange="nextQuestion()"> E) Mercúrio<br>
+        </div>
+
+        <div id="question4" class="question">
+            <h3>4ª Os planetas gasosos são compostos por gases, como hidrogênio e hélio.
+                 Qual o nome do maior planeta gasoso do Sistema Solar?</h3>
+            <input type="radio" name="answer4" value="A" onchange="nextQuestion()"> A)  Marte<br>
+            <input type="radio" name="answer4" value="B" onchange="nextQuestion()"> B) Júpiter<br>
+            <input type="radio" name="answer4" value="C" onchange="nextQuestion()"> C) Saturno<br>
+            <input type="radio" name="answer4" value="D" onchange="nextQuestion()"> D) Urano<br>
+            <input type="radio" name="answer4" value="E" onchange="nextQuestion()"> E) Netuno<br>
+        </div>
+
+        <div id="question5" class="question">
+            <h3>5ª Em 24 de agosto de 2006, uma decisão histórica fez com que os livros didáticos precisassem ser reescritos.
+                  É que, naquela data, a União Astronômica Internacional (IAU) batia o martelo quanto à definição de _________________: o que até então era o nono planeta do Sistema Solar
+                   foi rebaixado de categoria e passou a ser considerado um planeta-anão.</h3>
+            <input type="radio" name="answer5" value="A" onchange="nextQuestion()"> A) Ceres<br>
+            <input type="radio" name="answer5" value="B" onchange="nextQuestion()"> B)  Lua<br>
+            <input type="radio" name="answer5" value="C" onchange="nextQuestion()"> C) Vênus<br>
+            <input type="radio" name="answer5" value="D" onchange="nextQuestion()"> D) Plutão<br>
+            <input type="radio" name="answer5" value="E" onchange="nextQuestion()"> E) Urano<br>
+        </div>
+
+        <div id="results" class="question">
+            <h2>Resultados</h2>
+            <h3 id="score"></h3>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
