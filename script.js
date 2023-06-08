@@ -16,7 +16,8 @@ function nextQuestion() {
       }
       if (currentQuestion === 4) {
         score += currentAnswer.value === "C" ? 1 : 0;
-      }else {
+      }
+      if (currentQuestion === 5) {
         score += currentAnswer.value === "D" ? 1 : 0; 
       }
    
