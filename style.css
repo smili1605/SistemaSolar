@@ -1,8 +1,10 @@
 body {
+  background-repeat: no-repeat;
   margin: 0px;
   padding: 0px;
   background-size: 100%;
   background-image: url(images/universo.png);
+ 
 }
 header {
   padding: 10px;
@@ -50,7 +52,7 @@ header {
 
 .sun {
   height: 120px;
-  width: 120px;
+  width: 130px;
   background-image: url(images/sol.png);
   background-size: cover;
   border-radius: 50%;
@@ -96,7 +98,7 @@ p {
 .uranus-outline-1,
 .neptune-outline-1 {
   border-radius: 50%;
-  border: 1px dotted #ddd9;
+  border: 1px dotted #fff;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -196,10 +198,10 @@ p {
 }
 @keyframes orbit6 {
   from {
-    transform: rotate(0deg) translateX(200px) rotate(0deg);
+    transform: rotate(0deg) translateX(215px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translateX(200px) rotate(-360deg);
+    transform: rotate(360deg) translateX(215px) rotate(-360deg);
   }
 }
 .jupiter-outline-1 {
@@ -207,23 +209,23 @@ p {
   width: 430px;
 }
 .saturn {
-  height: 55px;
-  width: 55px;
+  height: 90px;
+  width: 90px;
   background-image: url(images/saturno.png);
-  background-size: cover;
+  background-size: contain;
   border-radius: 50%;
   position: absolute;
-  left: 45%;
+  left: 40%;
   top: 45%;
   transform: translate(-50%, -50%);
   animation: orbit7 90s linear infinite;
 }
 @keyframes orbit7 {
   from {
-    transform: rotate(0deg) translateX(250px) rotate(0deg);
+    transform: rotate(0deg) translateX(245px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translateX(250px) rotate(-360deg);
+    transform: rotate(360deg) translateX(255px) rotate(-360deg);
   }
 }
 .saturn-outline-1 {
